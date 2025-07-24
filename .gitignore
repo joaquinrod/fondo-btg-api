@@ -1,0 +1,24 @@
+# Ignorar entornos virtuales
+.venv/
+env/
+venv/
+
+# Ignorar archivos de caché y configuración de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+build/
+dist/
+.pytest_cache/
+
+# Ignorar archivos de VS Code 
+.vscode/
+
+# Ignorar archivos específicos de FastAPI/Uvicorn si los generas
+*.log
+*.db
+
+# Ignorar archivos de entorno 
+.env
